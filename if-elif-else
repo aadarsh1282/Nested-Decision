@@ -1,0 +1,15 @@
+# Topic: Nested Decision Structures (if-elif-else)
+score = int(input("Enter your total  marks: "))
+
+if score >=90: #this is a if statements
+    print("Bravo! You got HD!")
+elif score >=80: #this is elif statement
+    print("Amazing! You got A!")
+elif score >=70:
+    print("Nice! You got B!")
+elif score >=60:
+    print("Satisfactory! You got C!")
+elif score >=50:
+    print("You can do better! You got D!")
+else:
+    print("You're fail!") #this command showed result except if and elif command
